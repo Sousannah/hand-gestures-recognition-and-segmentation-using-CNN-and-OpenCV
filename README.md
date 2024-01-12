@@ -2,6 +2,8 @@
 
 This GitHub repository contains code for a Convolutional Neural Network (CNN) model to detect five different hand gestures from segmented hand photos. The model is trained on a dataset using Keras with TensorFlow backend and includes data preprocessing, model building, training, and evaluation. Additionally, there is a separate file, "Real_life_test," demonstrating real-time hand gesture recognition using OpenCV.
 
+![Hand Gesture Detection and Segmentation](Screenshot 2024-01-12 184453.png)
+
 ## Project Structure
 
 The repository is organized as follows:
