@@ -33,20 +33,17 @@ The repository is organized as follows:
 
 1. **Dataset:**
    - Download the dataset from [Kaggle](https://www.kaggle.com/datasets/sarjit07/hand-gesture-recog-dataset/data) and extract it into the "data" directory.
-   - I used all the training classes except the "blank" one
 
 2. **Training:**
    - Run the "CNN_Train" file to train and evaluate the CNN models.
+   - Run the "segmentation_ResNet(one real data)" file to Train and evaluate the ResNet model on the data without doing data augmentation
+   - Run the "segmentation_ResNet(one augmented data)" file to Train and evaluate the ResNet model on the data after doing data augmentation
    - Experiment with model architectures and hyperparameters to achieve optimal performance.
 
 3. **Real-time Testing:**
    - Execute the "OpenCV_test" file to see real-time hand gesture recognition using OpenCV.
 
-4. **Model Testing on Segmented Photos:**
-   - Use the "Images_Test" file to test the trained model on segmented hand photos.
-   - Provide the directory path containing the photos, and the model will predict the gestures.
-
-5. **Model Saving:**
+4. **Model Saving:**
    - The trained models are saved in the repository for later use.
 
 ## Requirements:
@@ -56,6 +53,6 @@ The repository is organized as follows:
 
 Feel free to customize and extend the code according to your requirements. For any issues or suggestions, please create an issue in the [repository](https://github.com/Sousannah/hand-gestures-recognition-and-segmentation-using-CNN-and-OpenCV).
 
-**Note: The trained models are available in the [Releases section](https://github.com/Sousannah/hand-gestures-recognition-and-segmentation-using-CNN-and-OpenCV/releases).**
+**Note: The trained ResNet models perform better than the CNN model**
 
 Happy coding! 🚀
