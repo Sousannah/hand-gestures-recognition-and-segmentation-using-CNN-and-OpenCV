@@ -1,0 +1,6 @@
+0 blank
+1 Fist
+2 Five
+3 Ok
+4 Thumbs up
+5 Thumbs down
